@@ -1,0 +1,11 @@
+{
+  "name": "ultimate-transform-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Ultimate Transform - Kundalini Yoga Foundation website with workshop booking, Razorpay payments and admin panel",
+  "scripts": {
+    "start": "npx --yes serve . -l 5173",
+    "dev": "npx --yes netlify-cli dev",
+    "bake": "python3 tools/bake.py"
+  }
+}
